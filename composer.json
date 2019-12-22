@@ -1,0 +1,39 @@
+{
+  "name": "lulanyin/wechat",
+  "description": "微信开放平台接口",
+  "keywords": [
+    "wechat"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lulanyin",
+      "email": "me@lanyin.lu"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "ext-json": "*",
+    "ext-curl": "*",
+    "ext-mbstring": "*",
+    "ext-iconv": "*"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Small\\WeChat\\" : "src/"
+    },
+    "files": [
+      "src/helper/functions.php"
+    ]
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
